@@ -7,19 +7,19 @@ class Powerlevel10k < Formula
   bottle :unneeded
 
   def install
-    pkgshare.install "powerlevel10k.zsh-theme"
+    prefix.install Dir["*"]
   end
 
   def caveats
     <<~EOS
-      To activate powerlevel10k, add the following at the end of your .zshrc:
+      To activate powerlevel10k, add the following line to .zshrc:
 
-        source #{HOMEBREW_PREFIX}/share/powerlevel10k/powerlevel10k.zsh-theme
+        source #{opt_prefix}/powerlevel10k.zsh-theme
     EOS
   end
 
   test do
     assert_match "OK",
-      shell_output("zsh -ic '. #{pkgshare}/powerlevel10k.zsh-theme && (( ${+P9K_SSH} )) && echo OK'")
+      shell_output("zsh -ic '. #{opt_prefix}/powerlevel10k.zsh-theme && (( ${+P9K_SSH} )) && echo OK'")
   end
 end
