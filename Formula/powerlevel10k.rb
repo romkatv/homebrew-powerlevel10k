@@ -20,6 +20,6 @@ class Powerlevel10k < Formula
 
   test do
     assert_match "OK",
-      shell_output("zsh -ic '. #{opt_prefix}/powerlevel10k.zsh-theme && (( ${+P9K_SSH} )) && echo OK'")
+      shell_output("zsh -dfic '. #{opt_prefix}/powerlevel10k.zsh-theme && (( ${+P9K_SSH} )) && echo OK'")
   end
 end
