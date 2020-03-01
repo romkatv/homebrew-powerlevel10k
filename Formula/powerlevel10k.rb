@@ -1,4 +1,4 @@
-class ZshAutosuggestions < Formula
+class Powerlevel10k < Formula
   desc "A Zsh Theme"
   homepage "https://github.com/romkatv/powerlevel10k"
   url "https://github.com/romkatv/powerlevel10k/archive/v1.2.0.tar.gz"
