@@ -1,8 +1,8 @@
 class Powerlevel10k < Formula
   desc "A Zsh Theme"
   homepage "https://github.com/romkatv/powerlevel10k"
-  url "https://github.com/romkatv/powerlevel10k/archive/v1.3.0.tar.gz"
-  sha256 "0a40b7b25f848b72f83b0d2d2d429c22a2c08d2ea23515c78fdaf0060b201948"
+  url "https://github.com/romkatv/powerlevel10k/archive/v1.5.0.tar.gz"
+  sha256 "233d817229731d80076d0c8312fb0130bf2d3e4300de1b8265866e43abc87c3c"
 
   bottle :unneeded
 
