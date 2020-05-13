@@ -1,7 +1,7 @@
 # Powerlevel10k Homebrew Tap
 
 This repository is the official Homebrew Tap for
-[powerlevel10k](https://github.com/romkatv/powerlevel10k).
+[Powerlevel10k](https://github.com/romkatv/powerlevel10k).
 
 ## Install Powerlevel10k with Homebrew
 
@@ -14,4 +14,10 @@ echo 'source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme' >>! ~/.zshrc
 
 ```zsh
 brew update && brew upgrade
+```
+
+## Uninstall Powerlevel10k with Homebrew
+
+```zsh
+brew uninstall romkatv/powerlevel10k/powerlevel10k
 ```
