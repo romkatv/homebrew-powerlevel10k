@@ -21,3 +21,15 @@ brew update && brew upgrade
 ```zsh
 brew uninstall romkatv/powerlevel10k/powerlevel10k
 ```
+
+## Install Meslo Nerd Font patched for Powerlevel10k
+
+```zsh
+brew install romkatv/powerlevel10k/font-powerlevel10k-meslo-lgs-nf
+```
+
+## Uninstall Meslo Nerd Font patched for Powerlevel10k
+
+```zsh
+brew uninstall romkatv/powerlevel10k/font-powerlevel10k-meslo-lgs-nf
+```
