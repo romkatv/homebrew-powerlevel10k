@@ -9,7 +9,7 @@ repository.
 
 ```zsh
 brew install powerlevel10k
-echo 'source $(brew --prefix powerlevel10k)/powerlevel10k.zsh-theme' >>! ~/.zshrc
+echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
 ```
 
 ## Update Powerlevel10k with Homebrew
